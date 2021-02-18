@@ -27,5 +27,5 @@ Local Storage <br/>
 -Stringify and parse JSON as necessary <br/>
 
 Future improvements <br/>
--Implement categories and dynamic routing (axios) and possibly hook up to a back end with authentication (maybe firebase) to make the user experience fully customizable <br/>
+-Implement categories and dynamic routing (react-router-dom) and possibly hook up to a back end with authentication (maybe firebase) to make the user experience fully customizable <br/>
 -Could use data visualization (D3.js) to show progress and completed tasks in a visually appealing manner
