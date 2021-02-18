@@ -1,23 +1,24 @@
-Plan
+Plan <br/>
 
-Structure
--App.js for main functionality
--List.js for the list layout
--Alert.js for to handle types of alerts - types passed from App.js as props.
+Structure <br/>
+-App.js for main functionality <br/>
+-List.js for the list layout <br/>
+-Alert.js for to handle types of alerts - types passed from App.js as props. <br/>
 
-Functionality
--useState for functionality - adding items, deleting items, editing items, deleting list & updating list depending on what users actions
+Functionality <br/>
+-useState for functionality <br/>
+-adding items, deleting items, editing items, deleting list & updating list depending on what users actions <br/>
 
-Alerts
--useState to recognize when to show an alert and useEffect to display alert
--Prevent user from entering an empty value to the list
--Deleted item from the list
--Cleared list
--Added item to the list
--Edited item
+Alerts <br/>
+-useState to recognize when to show an alert and useEffect to display alert <br/>
+-Prevent user from entering an empty value to the list <br/>
+-Deleted item from the list <br/>
+-Cleared list <br/>
+-Added item to the list <br/>
+-Edited item <br/>
 
-Local Storage
--Want to be able to use local storage so the user doesn't lose list items when browser refreshes
--useEffect to whipe out old values and save latest values in the list; key value pairs
--need to get values from local storage if there is any and use them when browser is refreshed
--stringify and parse JSON as necessary
+Local Storage <br/>
+-Want to be able to use local storage so the user doesn't lose list items when browser refreshes <br/>
+-useEffect to whipe out old values and save latest values in the list; key value pairs <br/>
+-need to get values from local storage if there is any and use them when browser is refreshed <br/>
+-stringify and parse JSON as necessary <br/>
